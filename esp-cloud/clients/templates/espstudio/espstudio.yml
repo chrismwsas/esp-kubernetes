@@ -48,7 +48,7 @@ spec:
       labels:
         app: sas-event-stream-processing-studio-app
     spec:
-      serviceAccountName: esp-operator
+      serviceAccountName: sas-esp-clients
       containers:
       - name: espstudio-container
         image: TEMPLATE_ESPSTUDIO_IMAGE
