@@ -48,7 +48,7 @@ spec:
       labels:
         app: sas-event-stream-manager-app
     spec:
-      serviceAccountName: esp-operator
+      serviceAccountName: sas-esp-clients
       containers:
       - name: esm-container
         image: TEMPLATE_ESM_IMAGE
