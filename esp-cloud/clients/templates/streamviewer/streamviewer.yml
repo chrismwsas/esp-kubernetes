@@ -48,7 +48,7 @@ spec:
       labels:
         app: sas-event-stream-processing-streamviewer-app
     spec:
-      serviceAccountName: esp-operator
+      serviceAccountName: sas-esp-clients
       containers:
       - name: streamviewer-container
         image: TEMPLATE_STREAMVIEWER_IMAGE
